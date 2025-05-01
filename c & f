@@ -1,0 +1,28 @@
+celsius to farhenheit
+
+#include<stdio.h>
+int main()
+{
+    int c;
+    float f;
+    printf("Enter the temp in celsius :");
+    scanf("%d",&c);
+    
+    f=(c*1.8)+32;
+    printf("The temp in farenheit : %.2f",f);
+}
+
+
+
+farhenheit to celsius
+#include<stdio.h>
+int main()
+{
+    float f;
+    int c;
+    printf("Enter temp in farenheit : ");
+    scanf("%f",&f);
+    
+    c=(f-32)*0.555555555;
+    printf("The temp in celsius :%d",c);
+}
