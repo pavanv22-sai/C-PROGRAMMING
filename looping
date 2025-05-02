@@ -8,3 +8,20 @@ int main () {
         printf("%d\t",i);
     }
 }
+
+now mul table by using the looping of for
+
+
+# include <stdio.h>
+ int main () {
+     int num ;
+     int f ;
+     printf("given the number = ");
+     scanf("%d",&num);
+     
+     printf("the mul table for = %d\n" , num );
+     
+     for(f=0 ; f<=10 ; f++){
+     printf("%d * %d = %d\n" ,num , f ,(num*f));}
+     return 0;
+ }
